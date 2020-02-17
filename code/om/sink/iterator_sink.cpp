@@ -55,7 +55,7 @@ inline void Type_::Swap(IteratorSink & theIteratorSink) {
 		this->thisIterator,
 		theIteratorSink.thisIterator
 	);
-	return *this;
+	//return *this;
 }
 
 	#undef Type_
